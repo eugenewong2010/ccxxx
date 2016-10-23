@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/victor.li/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Users/victor.li/Desktop/CP2/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-26d21dbaf18901eac857acaee3ca6d25d4e332eb.jar" />
+    </item>
+    <item
+        jar="/Users/victor.li/Desktop/CP2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/Users/victor.li/Desktop/CP2/app/build/intermediates/pre-dexed/debug/classes-f393bc894050f2cd91baba391a883abad3d1f2ca.jar" />
+    </item>
+    <item
+        jar="/Users/victor.li/Desktop/CP2/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/victor.li/Desktop/CP2/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-f21fd42e620f1dde6b49319d2e17d308f3c96fa9.jar" />
+    </item>
+    <item
+        jar="/Users/victor.li/Desktop/CP2/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/victor.li/Desktop/CP2/app/build/intermediates/pre-dexed/debug/classes-1497918a5dad4dbe587e551367a33c7b05b0fd69.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="#006564">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/etMember"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:id="@+id/ivLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="160dp"
+            android:layout_centerInParent="true"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/cplogo" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btnSignIn"
+        android:text="@string/signin"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="55dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/btn"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true" />
+
+    <EditText
+        android:id="@+id/etMember"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:hint="@string/UserName"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:text="Johnny Appleseed"
+        android:layout_above="@+id/etPwd" />
+
+    <EditText
+        android:id="@+id/etPwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:hint="@string/Password"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textAlignment="center"
+        android:text="123456"
+        android:inputType="textPassword"
+        android:layout_marginBottom="18dp"
+        android:layout_above="@+id/btnSignIn" />
+
+</RelativeLayout>
